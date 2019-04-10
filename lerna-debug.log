@@ -1,0 +1,17 @@
+0 silly argv { _: [ 'create' ],
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   lernaVersion: '3.13.2',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   name: 'common',
+0 silly argv   loc: '@lerna_react_sample/common' }
+1 notice cli v3.13.2
+2 verbose rootPath D:\lerna_react_sample
+3 error Error: Command failed: git config --get user.name
+3 error
+3 error
+3 error     at makeError (D:\lerna_react_sample\node_modules\execa\index.js:174:9)
+3 error     at Function.module.exports.sync (D:\lerna_react_sample\node_modules\execa\index.js:338:15)
+3 error     at Object.execSync (D:\lerna_react_sample\node_modules\@lerna\child-process\index.js:22:16)
+3 error     at CreateCommand.gitConfig (D:\lerna_react_sample\node_modules\@lerna\create\index.js:181:34)
+3 error     at CreateCommand.initialize (D:\lerna_react_sample\node_modules\@lerna\create\index.js:103:46)
